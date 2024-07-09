@@ -14,6 +14,7 @@ class BinanceConnection:
         self.client = Client(key, secret)
 
 
+
 if __name__ == '__main__':
     filename = 'C:\\Users\\Public\\Projects\\my-bot\\credentials.txt'
     connection = BinanceConnection(filename)
